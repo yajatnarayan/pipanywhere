@@ -146,14 +146,17 @@ Invisible videos (hidden, display:none, opacity:0) are filtered out.
 
 ```
 pipanywhere/
-├── manifest.json       # Manifest V3 configuration
-├── background.js       # Service worker (action/command handlers)
-├── icons/              # Extension icons (16/32/48/128px)
+├── manifest.json          # Manifest V3 configuration
+├── background.js          # Service worker (action/command handlers + UI controls)
+├── icons/                 # Extension icons (16/32/48/128px)
 │   ├── icon16.png
 │   ├── icon32.png
 │   ├── icon48.png
 │   └── icon128.png
-└── README.md           # Documentation
+├── README.md              # Main documentation
+├── INSTALL.md             # Quick install & test guide
+├── CONTROLS.md            # PiP window controls guide (NEW!)
+└── TROUBLESHOOTING.md     # Error fixes & debugging
 ```
 
 ## Permissions
