@@ -87,8 +87,10 @@ When a video enters PiP mode, on-screen controls appear in the bottom-right corn
 **Controls Behavior**:
 - Appear automatically when PiP activates
 - Auto-hide after 3 seconds (move mouse over to reveal)
-- Smooth hover animations
+- Smooth hover animations with blue glow effect
 - Click **✕** to close PiP from the page
+
+📖 **Detailed Guide**: See [CONTROLS.md](CONTROLS.md) for visual diagrams, customization options, and tips
 
 ### Visual Feedback
 
